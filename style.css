@@ -1,0 +1,73 @@
+body {
+    background: url('https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg?w=1380&t=st=1705782417~exp=1705783017~hmac=eaf6819c677f14fe3476cf1159185399d27cacc2ffa99519549f23518db8237e') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+}
+
+#container-transcricao {
+    text-align: center;
+}
+
+#texto-transcrito {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+#barra-progresso {
+    width: 80%;
+    margin: 10px auto;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #fff; /* Adiciona uma borda branca à barra de progresso */
+}
+
+#progresso {
+    height: 100%;
+    width: 0;
+    background-color: #3498db;
+    border-radius: 5px;
+    -webkit-transition: width 0.3s ease-in-out; /* Adiciona prefixo -webkit */
+    transition: width 0.3s ease-in-out;
+}
+
+.iniciar,
+.parar,
+.pausar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.iniciar:hover,
+.parar:hover,
+.pausar:hover {
+    background-color: #2980b9;
+}
+
+#temporizador {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}

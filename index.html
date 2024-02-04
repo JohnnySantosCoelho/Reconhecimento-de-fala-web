@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcritor Automático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container-transcricao">
+        <h1>Transcritor automático</h1>
+        <div id="temporizador">Tempo: <span id="minutos">0</span> minutos <span id="segundos">0</span> segundos</div>
+        <textarea id="texto-transcrito" rows="6" cols="80" name="texto" placeholder="Pressione o botão e fale" readonly></textarea>
+        <div id="barra-progresso">
+            <div id="progresso"></div>
+        </div>
+        <button class="iniciar" id="transcrever">Iniciar</button>
+        <button class="parar" id="parar">Parar</button>
+        <button class="pausar" id="pausar">Pausar</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
